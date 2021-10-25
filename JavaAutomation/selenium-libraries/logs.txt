@@ -1,0 +1,12 @@
+1611505326493	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VISHNU~1\\AppData\\Local\\Temp\\rust_mozprofileMmsBZx"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611505328318	Marionette	INFO	Listening on port 49974
+1611505328526	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: https://www.goindigo.in/, line 7560: TypeError: thisHeading is null
+JavaScript warning: https://static.goindigo.in/etc/designs/indigo/clientlib-all.min.js, line 28217: unreachable code after return statement
+JavaScript error: https://static.goindigo.in/etc.clientlibs/indigo/components/loyalty/loyaltySlidepanes/clientlib.min.js, line 1: Error: Argument `elem` must be a valid HTML node
