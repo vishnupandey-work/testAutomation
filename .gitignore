@@ -1,3 +1,5 @@
 /.metadata/
 cypressTestAutomation/node_modules
 package-lock.json
+*.jpg
+*/screenshots/*
