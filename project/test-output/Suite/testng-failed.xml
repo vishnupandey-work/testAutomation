@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="utilities.Listeners"/>
+  </listeners>
+  <test thread-count="4" name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="tests.LandingPageTest">
+        <methods>
+          <include name="init"/>
+          <include name="searchBar" invocation-numbers="1"/>
+          <include name="terminate"/>
+        </methods>
+      </class> <!-- tests.LandingPageTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="4" name="Test4(failed)" parallel="tests">
+    <classes>
+      <class name="tests.LandingPageTest">
+        <methods>
+          <include name="init"/>
+          <include name="searchBar" invocation-numbers="1"/>
+          <include name="terminate"/>
+        </methods>
+      </class> <!-- tests.LandingPageTest -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test thread-count="4" name="Test3(failed)" parallel="tests">
+    <classes>
+      <class name="tests.LandingPageTest">
+        <methods>
+          <include name="init"/>
+          <include name="searchBar" invocation-numbers="1"/>
+          <include name="terminate"/>
+        </methods>
+      </class> <!-- tests.LandingPageTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="4" name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="tests.LandingPageTest">
+        <methods>
+          <include name="init"/>
+          <include name="searchBar" invocation-numbers="1"/>
+          <include name="terminate"/>
+        </methods>
+      </class> <!-- tests.LandingPageTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

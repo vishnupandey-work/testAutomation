@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="12" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14560" started-at="2021-11-18T19:40:38 IST" finished-at="2021-11-18T19:40:53 IST">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="14006" started-at="2021-11-18T19:40:38 IST" finished-at="2021-11-18T19:40:52 IST">
+      <class name="tests.LandingPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.LandingPageTest@41488b16]" name="init" is-config="true" duration-ms="2227" started-at="2021-11-18T19:40:38 IST" finished-at="2021-11-18T19:40:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="searchBar(java.lang.String,java.lang.String)[pri:1, instance:tests.LandingPageTest@41488b16]" name="searchBar" duration-ms="4496" started-at="2021-11-18T19:40:40 IST" data-provider="getData" finished-at="2021-11-18T19:40:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTX 1660]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GTX 1660]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method status="FAIL" signature="searchBar(java.lang.String,java.lang.String)[pri:1, instance:tests.LandingPageTest@41488b16]" name="searchBar" duration-ms="3268" started-at="2021-11-18T19:40:45 IST" data-provider="getData" finished-at="2021-11-18T19:40:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTX 1650]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GTX 1650  - asd]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[failure]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: failure
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at tests.LandingPageTest.searchBar(LandingPageTest.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method status="PASS" signature="searchBar(java.lang.String,java.lang.String)[pri:1, instance:tests.LandingPageTest@41488b16]" name="searchBar" duration-ms="3152" started-at="2021-11-18T19:40:48 IST" data-provider="getData" finished-at="2021-11-18T19:40:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RTX 2060]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RTX 2060]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:tests.LandingPageTest@41488b16]" name="terminate" is-config="true" duration-ms="647" started-at="2021-11-18T19:40:51 IST" finished-at="2021-11-18T19:40:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- tests.LandingPageTest -->
+    </test> <!-- Test2 -->
+    <test name="Test4" duration-ms="13712" started-at="2021-11-18T19:40:38 IST" finished-at="2021-11-18T19:40:52 IST">
+      <class name="tests.LandingPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.LandingPageTest@79defdc]" name="init" is-config="true" duration-ms="2274" started-at="2021-11-18T19:40:38 IST" finished-at="2021-11-18T19:40:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="searchBar(java.lang.String,java.lang.String)[pri:1, instance:tests.LandingPageTest@79defdc]" name="searchBar" duration-ms="4095" started-at="2021-11-18T19:40:40 IST" data-provider="getData" finished-at="2021-11-18T19:40:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTX 1660]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GTX 1660]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method status="FAIL" signature="searchBar(java.lang.String,java.lang.String)[pri:1, instance:tests.LandingPageTest@79defdc]" name="searchBar" duration-ms="3251" started-at="2021-11-18T19:40:44 IST" data-provider="getData" finished-at="2021-11-18T19:40:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTX 1650]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GTX 1650  - asd]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[failure]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: failure
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at tests.LandingPageTest.searchBar(LandingPageTest.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method status="PASS" signature="searchBar(java.lang.String,java.lang.String)[pri:1, instance:tests.LandingPageTest@79defdc]" name="searchBar" duration-ms="3120" started-at="2021-11-18T19:40:48 IST" data-provider="getData" finished-at="2021-11-18T19:40:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RTX 2060]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RTX 2060]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:tests.LandingPageTest@79defdc]" name="terminate" is-config="true" duration-ms="696" started-at="2021-11-18T19:40:51 IST" finished-at="2021-11-18T19:40:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- tests.LandingPageTest -->
+    </test> <!-- Test4 -->
+    <test name="Test3" duration-ms="13848" started-at="2021-11-18T19:40:38 IST" finished-at="2021-11-18T19:40:52 IST">
+      <class name="tests.LandingPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.LandingPageTest@22f59fa]" name="init" is-config="true" duration-ms="2153" started-at="2021-11-18T19:40:38 IST" finished-at="2021-11-18T19:40:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="searchBar(java.lang.String,java.lang.String)[pri:1, instance:tests.LandingPageTest@22f59fa]" name="searchBar" duration-ms="4348" started-at="2021-11-18T19:40:40 IST" data-provider="getData" finished-at="2021-11-18T19:40:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTX 1660]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GTX 1660]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method status="FAIL" signature="searchBar(java.lang.String,java.lang.String)[pri:1, instance:tests.LandingPageTest@22f59fa]" name="searchBar" duration-ms="3442" started-at="2021-11-18T19:40:45 IST" data-provider="getData" finished-at="2021-11-18T19:40:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTX 1650]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GTX 1650  - asd]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[failure]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: failure
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at tests.LandingPageTest.searchBar(LandingPageTest.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method status="PASS" signature="searchBar(java.lang.String,java.lang.String)[pri:1, instance:tests.LandingPageTest@22f59fa]" name="searchBar" duration-ms="3018" started-at="2021-11-18T19:40:48 IST" data-provider="getData" finished-at="2021-11-18T19:40:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RTX 2060]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RTX 2060]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:tests.LandingPageTest@22f59fa]" name="terminate" is-config="true" duration-ms="628" started-at="2021-11-18T19:40:51 IST" finished-at="2021-11-18T19:40:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- tests.LandingPageTest -->
+    </test> <!-- Test3 -->
+    <test name="Test1" duration-ms="14560" started-at="2021-11-18T19:40:38 IST" finished-at="2021-11-18T19:40:53 IST">
+      <class name="tests.LandingPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.LandingPageTest@147e2ae7]" name="init" is-config="true" duration-ms="2210" started-at="2021-11-18T19:40:38 IST" finished-at="2021-11-18T19:40:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="searchBar(java.lang.String,java.lang.String)[pri:1, instance:tests.LandingPageTest@147e2ae7]" name="searchBar" duration-ms="4663" started-at="2021-11-18T19:40:40 IST" data-provider="getData" finished-at="2021-11-18T19:40:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTX 1660]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GTX 1660]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method status="FAIL" signature="searchBar(java.lang.String,java.lang.String)[pri:1, instance:tests.LandingPageTest@147e2ae7]" name="searchBar" duration-ms="3698" started-at="2021-11-18T19:40:45 IST" data-provider="getData" finished-at="2021-11-18T19:40:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTX 1650]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GTX 1650  - asd]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[failure]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: failure
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at tests.LandingPageTest.searchBar(LandingPageTest.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method status="PASS" signature="searchBar(java.lang.String,java.lang.String)[pri:1, instance:tests.LandingPageTest@147e2ae7]" name="searchBar" duration-ms="3043" started-at="2021-11-18T19:40:49 IST" data-provider="getData" finished-at="2021-11-18T19:40:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RTX 2060]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RTX 2060]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:tests.LandingPageTest@147e2ae7]" name="terminate" is-config="true" duration-ms="658" started-at="2021-11-18T19:40:52 IST" finished-at="2021-11-18T19:40:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- tests.LandingPageTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
