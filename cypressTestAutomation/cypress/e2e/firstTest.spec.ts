@@ -1,6 +1,6 @@
-describe( 'myTest', ()=>{
+describe('myTest', () => {
 
-    it('',()=>{
+    it('', () => {
         cy.visit("https://www.amazon.in")
     })
 })
