@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="selenium-libraries/|selenium-libraries/libs/" kind="src" path="src"/>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="selenium-libraries/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="selenium-libraries/libs/byte-buddy-1.8.15.jar"/>
 	<classpathentry kind="lib" path="selenium-libraries/libs/commons-exec-1.3.jar"/>
@@ -8,6 +13,15 @@
 	<classpathentry kind="lib" path="selenium-libraries/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="selenium-libraries/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
